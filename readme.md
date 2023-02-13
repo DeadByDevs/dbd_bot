@@ -1,7 +1,7 @@
 required library:
 
-pip install python-dotenv
-pip install discord.py
+python-dotenv
+discord.py
 
 ////////////
 
@@ -13,6 +13,7 @@ source bot-env/bin/activate
 
 //install in env
 pip install -U discord.py
+pip install -U python-dotenv
 
 launch bot:
 python3 main.py
