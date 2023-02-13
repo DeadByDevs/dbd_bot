@@ -5,8 +5,6 @@
 python-dotenv
 discord.py
 
---------
-
 ## how to set up the environment :
 
 - //create bot-env
