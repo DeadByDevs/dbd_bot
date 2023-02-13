@@ -1,19 +1,23 @@
-required library:
+#deadbybot
+
+## required library:
 
 python-dotenv
 discord.py
 
-////////////
+--------
 
-//create bot-env
-python3 -m venv bot-env
+## how to set up the environment :
 
-//activate virtual env:
-source bot-env/bin/activate
+- //create bot-env
+  - python3 -m venv bot-env
 
-//install in env
-pip install -U discord.py
-pip install -U python-dotenv
+- //activate virtual env:
+  - source bot-env/bin/activate
 
-launch bot:
+- //install in env
+  - pip install -U discord.py
+  - pip install -U python-dotenv
+
+## how to run the bot : 
 python3 main.py
