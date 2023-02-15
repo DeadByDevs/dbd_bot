@@ -19,8 +19,11 @@ numpy
   - source bot-env/bin/activate
 
 - install in env
+
   - pip install -U discord.py
-  - pip install -U python-dotenv
+
+- add packages to requirements.txt
+  - pip freeze > requirements.txt
 
 ## how to run the bot :
 
