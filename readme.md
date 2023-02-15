@@ -22,6 +22,6 @@ discord.py
 ## how to run the bot :
 
 - activate virtual env if not already in it:
-  - source api-env/bin/activate
+  - source bot-env/bin/activate
 - run bot:
   - python3 main.py
