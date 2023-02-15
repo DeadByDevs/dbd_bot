@@ -4,6 +4,9 @@
 
 python-dotenv
 discord.py
+requests
+pillow
+numpy
 
 ## how to set up the environment :
 
