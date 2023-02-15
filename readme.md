@@ -23,7 +23,12 @@ numpy
   - pip install -U discord.py
 
 - add packages to requirements.txt
+
   - pip freeze > requirements.txt
+
+- install requirements
+
+  - pip install -r requirements.txt
 
 ## how to run the bot :
 
