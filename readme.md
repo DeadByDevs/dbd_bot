@@ -1,38 +1,24 @@
-#deadbybot
+# dbd_bot
 
-## required library:
+## how to set up the environment:
 
-python-dotenv
-discord.py
-requests
-pillow
-numpy
-
-## how to set up the environment :
-
-- create bot-env
-
-  - python3 -m venv bot-env
+- create env:
+  python3 -m venv env
 
 - activate virtual env:
+  source env/bin/activate
 
-  - source bot-env/bin/activate
-
-- install in env
-
-  - pip install -U discord.py
-
-- add packages to requirements.txt
-
-  - pip freeze > requirements.txt
-
-- install requirements
-
-  - pip install -r requirements.txt
-
-## how to run the bot :
+- install requirements:
+  pip install -r requirements.txt
 
 - activate virtual env if not already in it:
-  - source bot-env/bin/activate
-- run bot:
-  - python3 main.py
+  source env/bin/activate
+
+## how to run the bot:
+
+- python3 main.py
+
+## env vars :
+
+- bot_token
+- api_url
